@@ -26,23 +26,18 @@ while True: #essa é uma estrutura que aprendi com meu professor. Criar um laço
     print("[v] - Viúvo(a)")
     print("[d] - Divorciado(a)")
     estadoC = input("Estado civil: ") #recebe estado civil do usuário
-    valido = True #inicializa a variável que vai confirmar se as informações dadas são válidas. ver linha
+    valido = True #inicializa a variável que vai confirmar se as informações dadas são válidas. ver linha 47
     if len(nome) < 3:
         valido = False #se o nome tiver menos que 3 letras, a variável "valido" recebe False
-        print("a")
     elif idade < 0 or idade > 150:
         valido = False #se a idade não estiver no intervalo entre 0 e 150, a variável "valido" recebe False
-        print("b")
     elif sal < 0:
         valido = False #se o salário digitado for um número negativo, a variável "valido" recebe False
-        print("c")
     elif sexo.lower() != 'f' and sexo.lower() != 'm': #pega a variável 'sexo', transforma em letra minúscula e faz o teste
         valido = False #se for diferente de 'f' e 'm', a variável "valido" recebe False
-        print("d")
     elif estadoC.lower() != 's' and estadoC.lower() != 'c' and \
          estadoC.lower() != 'v' and estadoC.lower() != 'd': #pega a variável 'estadoC', transforma em letra minúscula e faz o teste
         valido = False #se for diferente de 's', 'c', 'v' e 'd', a variável "valido" recebe False
-        print("e")
     
     if valido:
         print("\nInformações armazenadas com sucesso!")
