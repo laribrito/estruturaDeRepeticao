@@ -25,3 +25,4 @@ while True:
     else:
         #se for digitado outro número o programa para
         print("Número errado. Tente novamente!")
+        break
