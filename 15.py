@@ -14,8 +14,9 @@ x = 0
 a = 1 #primeiro termo da sequência
 b = 0 #termo anterior
 while x<cont:
-    print(a) 
+    print(a, end=", ") 
     c = a #armazena o termo anterior em uma variável auxiliar
     a += b #soma o atual com o anterior
     b = c #b recebe o termo anterior
     x+=1
+print("\b\b.")#escreve um ponto final 
