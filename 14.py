@@ -7,15 +7,20 @@ def limpar():
 #QUESTÃO: Faça um programa que peça 10 números inteiros, calcule 
 # e mostre a quantidade de números pares e a quantidade de números impares.
 
-#PRA FAZER
-
 limpar()
-print(" - Potencialização facilitada -")
-b = int(input("Base: ")) #recebe a base 
-e = int(input("Expoente: ")) #recebe o expoente
-expo = e #guarda o expoente para exibição no final
-acumulador = 1 #inicializa a variável "acumulador", que armazenará o resultado das potenciações
-while e>=1: #esse while será regressivo. Portanto, esse código só aceitará expoentes positivos
-    acumulador *= b #realiza a multiplicação
-    e-=1 #decrementador 
-print(f"{b} elevado a {expo} é igual a {acumulador}")
+print(" - Quantos ímpares? -")
+x = 1 #inicializa o contador
+#inciailiza as variáveis que irão armazenar a quantidade de números pares e impares
+par = 0 
+impar = 0
+while x<=10: #10 vezes
+    num = float(input("Número: ")) #recebe o número
+    #ANOTAÇÃO IMPORTANTE
+    # print(num % 2) resto
+    # print(num // 2) divisão inteira
+    if num % 2 == 0:
+        par +=1
+    else:
+        impar +=1
+    x+=1
+print(f"Houveram {par} números pares e {impar} números ímpares.")
