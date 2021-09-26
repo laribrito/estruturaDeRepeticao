@@ -11,7 +11,7 @@ limpar()
 print(" - Menor, Maior, SOMA! -")
 menor = 90000000000000000000000000000000000000000000000000000000000000000000 
 #para que o programa funcione bem, menor recebe um valor bem alto e maior um bem baixo
-maior = -90000000000000000000000000000000000000000000000000000000000000000000 
+maior = -0.90000000000000000000000000000000000000000000000000000000000000000000 
 while True:
     num = float(input("Número: ")) #recebe um número
     #testa se é o maior digitado
