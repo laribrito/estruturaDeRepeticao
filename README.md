@@ -79,9 +79,9 @@ Tabuada de 5:
   
   21. <a href="https://github.com/laribrito/estruturaDeRepeticao/blob/main/21.py">Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
   
-  22. <a href="https://github.com/laribrito/estruturaDeRepeticao/blob/main/22.py">Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, por quais número ele é divisível.</a>
+  22. <a href="https://github.com/laribrito/estruturaDeRepeticao/blob/main/22.py">Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, por quais número ele é divisível.
   
-  23. Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido pelo usuário. O programa deverá mostrar também o número de divisões que ele executou para encontrar os números primos. Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados.
+  23. <a href="https://github.com/laribrito/estruturaDeRepeticao/blob/main/23.py">Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido pelo usuário. O programa deverá mostrar também o número de divisões que ele executou para encontrar os números primos. Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados.</a>
   
   24. Faça um programa que calcule o mostre a média aritmética de N notas.
 
